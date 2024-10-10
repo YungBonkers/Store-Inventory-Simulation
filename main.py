@@ -166,6 +166,8 @@ def main():
             update_quantity()
         elif user_input == "display inventory":
             display_inventory()
+        elif user_input == "search inventory":
+            search_inventory()
         elif user_input == "exit":
             save_inventory(current_items)
             print("Thank you for using the inventory system. Goodbye!")
